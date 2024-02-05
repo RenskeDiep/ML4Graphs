@@ -1,0 +1,21 @@
+Logfile
+~~~~~~~
+
+indexing dataset: C:/Users/rensk/Documents/Amsterdam/Year 2 (M)/Period 3/ML4Graphs/anyburl-sources/x/y/z/Python/data/FB15/train.txt
+time elapsed: 4452.3671875ms
+
+
+
+rule file: C:\Users\rensk\Documents\Amsterdam\Year 2 (M)\Period 3\ML4Graphs\anyburl-sources\x\y\z\Python\data\FB15\rules-10
+cyclic: 1 | 0.0%
+acyclic: 27 | 0.0%
+time planned: 10s
+time elapsed: 32s
+
+
+rule file: C:\Users\rensk\Documents\Amsterdam\Year 2 (M)\Period 3\ML4Graphs\anyburl-sources\x\y\z\Python\data\FB15\rules-100
+cyclic: 1 | 0.0%
+acyclic: 178 | 0.0%
+time planned: 100s
+time elapsed: 101s
+

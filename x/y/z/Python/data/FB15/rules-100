@@ -1,0 +1,293 @@
+Rule(/film/film/country(/m/03wjm2,Y) :- /people/person/nationality(A,Y))
+Rule(/people/person/nationality(X,/m/0h7x
+) :- /people/person/profession(X,A))
+Rule(/film/film/release_date_s./film/film_regional_release_date/film_release_region(/m/01d259,Y) :- /film/film/release_date_s./film/film_regional_release_date/film_release_region(A,Y))
+Rule(/people/profession/people_with_this_profession(/m/0np9r,Y) :- /film/film/starring./film/performance/actor(A,Y))
+Rule(/music/performance_role/track_performances./music/track_contribution/contributor(/m/0gkd1,Y) :- /music/instrument/instrumentalists(A,Y))
+Rule(/film/film/release_date_s./film/film_regional_release_date/film_release_region(/m/0gj96ln,Y) :- /film/film/release_date_s./film/film_regional_release_date/film_release_region(A,Y))
+Rule(/people/person/nationality(X,/m/0h7x
+) :- /people/person/profession(X,/m/0n1h
+))
+Rule(/award/award_winner/awards_won./award/award_honor/award_winner(/m/06j8wx,Y) :- /award/award_nominee/award_nominations./award/award_nomination/award_nominee(/m/0l6px,Y))
+Rule(/location/statistical_region/religions./location/religion_percentage/religion(/m/03v0t,Y) :- /location/statistical_region/religions./location/religion_percentage/religion(A,Y))
+Rule(/film/film_job/films_with_this_crew_job./film/film_crew_gig/film(X,/m/01z452
+) :- /film/film_job/films_with_this_crew_job./film/film_crew_gig/film(X,/m/05pdd86
+))
+Rule(/music/record_label/artist(/m/0181dw,Y) :- /music/genre/artists(/m/064t9,Y))
+Rule(/music/record_label/artist(/m/0181dw,Y) :- /music/genre/artists(A,Y))
+Rule(/award/award_winner/awards_won./award/award_honor/award_winner(/m/06j8wx,Y) :- /award/award_nominee/award_nominations./award/award_nomination/award_nominee(A,Y))
+Rule(/location/location/contains(X,/m/0k9wp
+) :- /common/topic/webpage./common/webpage/category(X,A))
+Rule(/award/award_nominee/award_nominations./award/award_nomination/award_nominee(X,/m/01gq0b
+) :- /award/award_nominee/award_nominations./award/award_nomination/award(X,/m/09sb52
+))
+Rule(/award/award_nominee/award_nominations./award/award_nomination/award_nominee(X,/m/01gq0b
+) :- /award/award_nominee/award_nominations./award/award_nomination/award(X,A))
+Rule(/film/film_job/films_with_this_crew_job./film/film_crew_gig/film(X,/m/01z452
+) :- /film/film_job/films_with_this_crew_job./film/film_crew_gig/film(X,A))
+Rule(/people/person/profession(/m/03nk3t,Y) :- /people/person/profession(A,Y))
+Rule(/music/artist/genre(/m/02y7sr,Y) :- /music/artist/genre(A,Y))
+Rule(/award/award_category/nominees./award/award_nomination/nominated_for(X,/m/034qrh
+) :- /award/award_category/nominees./award/award_nomination/nominated_for(X,A))
+Rule(/award/award_nominated_work/award_nominations./award/award_nomination/nominated_for(/m/0bpbhm,Y) :- /film/film_job/films_with_this_crew_job./film/film_crew_gig/film(/m/09zzb8,Y))
+Rule(/people/person/profession(/m/03nk3t,Y) :- /people/person/profession(/m/01vh3r,Y))
+Rule(/award/ranked_list/ranked_list_items./award/ranking/item(/m/05glt,Y) :- /film/film_genre/films_in_this_genre(/m/082gq,Y))
+Rule(/education/educational_institution/students_graduates./education/education/major_field_of_study(X,/m/04x_3
+) :- /business/business_operation/operating_income./measurement_unit/dated_money_value/currency(X,/m/09nqf
+))
+Rule(/people/person/parents(/m/0p3r8,Y) :- /people/profession/people_with_this_profession(A,Y))
+Rule(/award/award_nominated_work/award_nominations./award/award_nomination/nominated_for(/m/0bpbhm,Y) :- /film/film_job/films_with_this_crew_job./film/film_crew_gig/film(A,Y))
+Rule(/award/award_winner/awards_won./award/award_honor/award_winner(/m/0lpjn,Y) :- /award/award_nominee/award_nominations./award/award_nomination/award_nominee(A,Y))
+Rule(/award/award_winner/awards_won./award/award_honor/award(/m/095zvfg,Y) :- /award/award_nominated_work/award_nominations./award/award_nomination/award(A,Y))
+Rule(/award/award_winner/awards_won./award/award_honor/award_winner(X,/m/02bkdn
+) :- /award/award_nominee/award_nominations./award/award_nomination/award_nominee(X,/m/02bkdn
+))
+Rule(/award/award_nominee/award_nominations./award/award_nomination/award_nominee(X,/m/01z7s_
+) :- /people/person/place_of_birth(X,A))
+Rule(/film/film/country(/m/01kf3_9,Y) :- /film/film/release_date_s./film/film_regional_release_date/film_release_region(A,Y))
+Rule(/award/ranked_list/ranked_list_items./award/ranking/item(/m/05glt,Y) :- /film/film_genre/films_in_this_genre(A,Y))
+Rule(/film/film/country(/m/01kf3_9,Y) :- /film/film/release_date_s./film/film_regional_release_date/film_release_region(/m/0m2kd,Y))
+Rule(/award/award_category/nominees./award/award_nomination/award_nominee(/m/02n9nmz,Y) :- /location/location/people_born_here(A,Y))
+Rule(/award/award_category/winners./award/award_honor/honored_for(/m/05ztrmj,Y) :- /film/film_job/films_with_this_crew_job./film/film_crew_gig/film(A,Y))
+Rule(/award/award_nominee/award_nominations./award/award_nomination/award(X,/m/05zkcn5
+) :- /music/artist/genre(X,/m/06by7
+))
+Rule(/award/award_nominee/award_nominations./award/award_nomination/award(X,/m/05zkcn5
+) :- /music/artist/genre(X,A))
+Rule(/award/award_nominated_work/award_nominations./award/award_nomination/award(/m/0jyb4,Y) :- /award/award_nominee/award_nominations./award/award_nomination/award(/m/02hfp_,Y))
+Rule(/military/military_person/service./military/military_service/military_force(X,/m/07wh1
+) :- /military/military_person/participated_in_conflicts(X,A))
+Rule(/award/award_winner/awards_won./award/award_honor/award_winner(X,Y) :- /award/award_nominee/award_nominations./award/award_nomination/award_nominee(X,Y))
+Rule(/military/military_person/service./military/military_service/military_force(X,/m/07wh1
+) :- /military/military_person/participated_in_conflicts(X,/m/081pw
+))
+Rule(/tv/tv_program/genre(/m/07wqr6,Y) :- /film/film/genre(/m/011yfd,Y))
+Rule(/film/film_job/films_with_this_crew_job./film/film_crew_gig/film(/m/0215hd,Y) :- /film/film_job/films_with_this_crew_job./film/film_crew_gig/film(/m/09zzb8,Y))
+Rule(/award/award_ceremony/awards_presented./award/award_honor/award(/m/056878,Y) :- /award/award_winner/awards_won./award/award_honor/award(A,Y))
+Rule(/award/award_ceremony/awards_presented./award/award_honor/award_winner(/m/07y9ts,Y) :- /award/award_winner/awards_won./award/award_honor/award_winner(/m/0d7hg4,Y))
+Rule(/tv/tv_program/genre(/m/07wqr6,Y) :- /film/film/genre(A,Y))
+Rule(/film/film_genre/films_in_this_genre(X,/m/0f3m1
+) :- /film/film_genre/films_in_this_genre(X,A))
+Rule(/award/award_winner/awards_won./award/award_honor/award_winner(/m/01x_d8,Y) :- /award/award_nominee/award_nominations./award/award_nomination/award_nominee(/m/01x_d8,Y))
+Rule(/award/award_nominated_work/award_nominations./award/award_nomination/award(/m/0jyb4,Y) :- /award/award_nominee/award_nominations./award/award_nomination/award(A,Y))
+Rule(/award/award_category/nominees./award/award_nomination/award_nominee(/m/02n9nmz,Y) :- /location/location/people_born_here(/m/02_286,Y))
+Rule(/soccer/football_team/current_roster./sports/sports_team_roster/position(X,/m/0dgrmp
+) :- /sports/sports_team/roster./soccer/football_roster_position/position(X,A))
+Rule(/soccer/football_team/current_roster./sports/sports_team_roster/position(X,/m/0dgrmp
+) :- /sports/sports_team/roster./soccer/football_roster_position/position(X,/m/02sdk9v
+))
+Rule(/award/award_ceremony/awards_presented./award/award_honor/award_winner(/m/07y9ts,Y) :- /award/award_winner/awards_won./award/award_honor/award_winner(A,Y))
+Rule(/film/film_job/films_with_this_crew_job./film/film_crew_gig/film(/m/0215hd,Y) :- /film/film_job/films_with_this_crew_job./film/film_crew_gig/film(A,Y))
+Rule(/film/film_job/films_with_this_crew_job./film/film_crew_gig/film(X,/m/01f6x7
+) :- /film/film_job/films_with_this_crew_job./film/film_crew_gig/film(X,A))
+Rule(/film/film_job/films_with_this_crew_job./film/film_crew_gig/film(X,/m/01f6x7
+) :- /film/film_job/films_with_this_crew_job./film/film_crew_gig/film(X,/m/02v_r7d
+))
+Rule(/award/award_nominee/award_nominations./award/award_nomination/award(X,/m/01d38g
+) :- /award/award_nominee/award_nominations./award/award_nomination/award(X,/m/01cw51
+))
+Rule(/american_football/football_team/current_roster./sports/sports_team_roster/position(/m/026cmdc,Y) :- /sports/sports_team/roster./american_football/football_historical_roster_position/position_s(/m/0fht9f,Y))
+Rule(/people/profession/people_with_this_profession(X,/m/09xx0m
+) :- /people/profession/people_with_this_profession(X,A))
+Rule(/award/award_nominee/award_nominations./award/award_nomination/award_nominee(X,/m/02p65p
+) :- /film/actor/film./film/performance/film(X,/m/02prw4h
+))
+Rule(/award/award_category/nominees./award/award_nomination/nominated_for(X,/m/095zlp
+) :- /award/award_category/nominees./award/award_nomination/award_nominee(X,/m/03q8ch
+))
+Rule(/award/award_category/nominees./award/award_nomination/nominated_for(/m/0bdw1g,Y) :- /award/award_category/nominees./award/award_nomination/nominated_for(/m/0fbtbt,Y))
+Rule(/film/film/release_date_s./film/film_regional_release_date/film_release_region(/m/0gj96ln,Y) :- /film/film/release_date_s./film/film_regional_release_date/film_release_region(/m/087wc7n,Y))
+Rule(/olympics/olympic_participating_country/athletes./olympics/olympic_athlete_affiliation/sport(/m/0d05w3,Y) :- /olympics/olympic_participating_country/athletes./olympics/olympic_athlete_affiliation/sport(/m/06qd3,Y))
+Rule(/location/statistical_region/religions./location/religion_percentage/religion(/m/03v0t,Y) :- /location/statistical_region/religions./location/religion_percentage/religion(/m/05k7sb,Y))
+Rule(/award/award_nominee/award_nominations./award/award_nomination/award_nominee(X,/m/02p65p
+) :- /film/actor/film./film/performance/film(X,A))
+Rule(/award/award_category/nominees./award/award_nomination/nominated_for(X,/m/095zlp
+) :- /award/award_category/nominees./award/award_nomination/award_nominee(X,A))
+Rule(/award/award_category/nominees./award/award_nomination/nominated_for(X,/m/01gvpz
+) :- /award/award_category/nominees./award/award_nomination/award_nominee(X,A))
+Rule(/people/profession/people_with_this_profession(/m/02hrh1q,Y) :- /film/film/starring./film/performance/actor(A,Y))
+Rule(/base/schemastaging/organization_extra/phone_number./base/schemastaging/phone_sandbox/service_language(X,/m/02h40lc
+) :- /base/schemastaging/organization_extra/phone_number./base/schemastaging/phone_sandbox/service_location(X,A))
+Rule(/film/film/other_crew./film/film_crew_gig/film_crew_role(X,/m/089g0h
+) :- /film/film/starring./film/performance/actor(X,A))
+Rule(/award/award_category/nominees./award/award_nomination/nominated_for(/m/0bdw1g,Y) :- /award/award_category/nominees./award/award_nomination/nominated_for(A,Y))
+Rule(/award/award_nominee/award_nominations./award/award_nomination/award_nominee(/m/06dv3,Y) :- /film/film/starring./film/performance/actor(A,Y))
+Rule(/music/genre/artists(/m/0ggq0m,Y) :- /film/personal_film_appearance_type/film_appearances./film/personal_film_appearance/person(A,Y))
+Rule(/award/award_winner/awards_won./award/award_honor/award_winner(/m/03l3jy,Y) :- /award/award_nominee/award_nominations./award/award_nomination/award_nominee(A,Y))
+Rule(/sports/sports_team/roster./soccer/football_roster_position/position(X,/m/0dgrmp
+) :- /soccer/football_team/current_roster./sports/sports_team_roster/position(X,A))
+Rule(/film/film/executive_produced_by(X,/m/02z2xdf
+) :- /film/film/other_crew./film/film_crew_gig/film_crew_role(X,A))
+Rule(/award/award_nominee/award_nominations./award/award_nomination/award_nominee(/m/0gz5hs,Y) :- /education/educational_institution/students_graduates./education/education/student(A,Y))
+Rule(/award/award_nominee/award_nominations./award/award_nomination/award_nominee(X,/m/0fvf9q
+) :- /award/award_winner/awards_won./award/award_honor/award(X,A))
+Rule(/education/educational_institution/students_graduates./education/education/major_field_of_study(X,/m/04x_3
+) :- /business/business_operation/operating_income./measurement_unit/dated_money_value/currency(X,A))
+Rule(/sports/sports_position/players./american_football/football_roster_position/team(X,/m/026lg0s
+) :- /sports/sports_position/players./american_football/football_historical_roster_position/team(X,A))
+Rule(/american_football/football_team/current_roster./sports/sports_team_roster/position(/m/026cmdc,Y) :- /sports/sports_team/roster./american_football/football_historical_roster_position/position_s(A,Y))
+Rule(/education/educational_degree/people_with_this_degree./education/education/institution(X,/m/02x9cv
+) :- /education/educational_degree/people_with_this_degree./education/education/institution(X,A))
+Rule(/award/award_category/nominees./award/award_nomination/award_nominee(/m/019f4v,Y) :- /film/film/starring./film/performance/actor(A,Y))
+Rule(/award/award_nominee/award_nominations./award/award_nomination/award(X,/m/01d38g
+) :- /award/award_nominee/award_nominations./award/award_nomination/award(X,A))
+Rule(/olympics/olympic_participating_country/athletes./olympics/olympic_athlete_affiliation/sport(/m/0d05w3,Y) :- /olympics/olympic_participating_country/athletes./olympics/olympic_athlete_affiliation/sport(A,Y))
+Rule(/tv/tv_genre/programs(/m/0jxy,Y) :- /base/schemastaging/tv_actor_extra/regular_dubbing_performances./base/schemastaging/tv_star_dubbing_performance/program(/m/09wlpl,Y))
+Rule(/location/administrative_division/second_level_division_of(X,/m/09c7w0
+) :- /location/statistical_region/rent50_3./measurement_unit/dated_money_value/currency(X,/m/09nqf
+))
+Rule(/olympics/olympic_sport/olympic_games_contested(/m/0crlz,Y) :- /olympics/olympic_participating_country/medals_won./olympics/olympic_medal_honor/olympics(A,Y))
+Rule(/film/film/release_date_s./film/film_regional_release_date/film_release_region(/m/09tcg4,Y) :- /film/film/release_date_s./film/film_regional_release_date/film_release_region(A,Y))
+Rule(/people/person/ethnicity(X,/m/09vc4s
+) :- /award/award_winner/awards_won./award/award_honor/award(X,/m/019f4v
+))
+Rule(/award/award_category/nominees./award/award_nomination/award_nominee(X,/m/0137n0
+) :- /award/award_category/winners./award/award_honor/award_winner(X,A))
+Rule(/award/award_nominated_work/award_nominations./award/award_nomination/award_nominee(X,/m/09yrh
+) :- /film/film/starring./film/performance/actor(X,A))
+Rule(/common/annotation_category/annotations./common/webpage/topic(/m/08mbj5d,Y) :- /music/genre/artists(/m/06by7,Y))
+Rule(/award/award_nominee/award_nominations./award/award_nomination/nominated_for(/m/09bxq9,Y) :- /award/award_category/nominees./award/award_nomination/nominated_for(A,Y))
+Rule(/location/administrative_division/second_level_division_of(X,/m/09c7w0
+) :- /location/statistical_region/rent50_3./measurement_unit/dated_money_value/currency(X,A))
+Rule(/education/educational_institution/students_graduates./education/education/major_field_of_study(X,/m/05qfh
+) :- /education/educational_institution/students_graduates./education/education/major_field_of_study(X,A))
+Rule(/film/film_genre/films_in_this_genre(X,/m/0kb1g
+) :- /film/film_genre/films_in_this_genre(X,/m/03hfmm
+))
+Rule(/music/performance_role/track_performances./music/track_contribution/contributor(/m/0l15bq,Y) :- /award/award_nominee/award_nominations./award/award_nomination/award_nominee(A,Y))
+Rule(/education/educational_institution/students_graduates./education/education/major_field_of_study(X,/m/05qfh
+) :- /education/educational_institution/students_graduates./education/education/major_field_of_study(X,/m/0g26h
+))
+Rule(/common/topic/webpage./common/webpage/category(/m/06fq2,Y) :- /common/topic/webpage./common/webpage/category(A,Y))
+Rule(/award/award_winner/awards_won./award/award_honor/award_winner(X,/m/011zd3
+) :- /award/award_nominee/award_nominations./award/award_nomination/award(X,A))
+Rule(/people/person/ethnicity(X,/m/09vc4s
+) :- /award/award_winner/awards_won./award/award_honor/award(X,A))
+Rule(/award/award_winner/awards_won./award/award_honor/award_winner(X,/m/011zd3
+) :- /award/award_nominee/award_nominations./award/award_nomination/award(X,/m/09sb52
+))
+Rule(/award/award_category/winners./award/award_honor/award_winner(/m/02py7pj,Y) :- /film/film/starring./film/performance/actor(A,Y))
+Rule(/olympics/olympic_sport/olympic_games_contested(/m/0crlz,Y) :- /olympics/olympic_participating_country/medals_won./olympics/olympic_medal_honor/olympics(/m/0f8l9c,Y))
+Rule(/common/annotation_category/annotations./common/webpage/topic(/m/08mbj5d,Y) :- /music/genre/artists(A,Y))
+Rule(/award/award_nominee/award_nominations./award/award_nomination/nominated_for(/m/09bxq9,Y) :- /award/award_category/nominees./award/award_nomination/nominated_for(/m/099c8n,Y))
+Rule(/olympics/olympic_games/medals_awarded./olympics/olympic_medal_honor/country(X,/m/07ylj
+) :- /olympics/olympic_games/athletes./olympics/olympic_athlete_affiliation/country(X,/m/082fr
+))
+Rule(/sports/professional_sports_team/draft_picks./sports/sports_league_draft_pick/school(/m/05tg3,Y) :- /sports/professional_sports_team/draft_picks./sports/sports_league_draft_pick/school(A,Y))
+Rule(/film/film/release_date_s./film/film_regional_release_date/film_release_region(/m/0h1v19,Y) :- /film/film/release_date_s./film/film_regional_release_date/film_release_region(A,Y))
+Rule(/tv/tv_genre/programs(/m/0jxy,Y) :- /base/schemastaging/tv_actor_extra/regular_dubbing_performances./base/schemastaging/tv_star_dubbing_performance/program(A,Y))
+Rule(/award/award_nominee/award_nominations./award/award_nomination/award_nominee(X,/m/066m4g
+) :- /award/award_winner/awards_won./award/award_honor/award_winner(X,/m/025b5y
+))
+Rule(/soccer/football_team/current_roster./sports/sports_team_roster/position(/m/05nsfc,Y) :- /sports/sports_team/roster./soccer/football_roster_position/position(A,Y))
+Rule(/olympics/olympic_games/medals_awarded./olympics/olympic_medal_honor/country(X,/m/07ylj
+) :- /olympics/olympic_games/athletes./olympics/olympic_athlete_affiliation/country(X,A))
+Rule(/award/award_nominee/award_nominations./award/award_nomination/award_nominee(X,/m/066m4g
+) :- /award/award_winner/awards_won./award/award_honor/award_winner(X,A))
+Rule(/film/film/release_date_s./film/film_regional_release_date/film_release_region(/m/02bg55,Y) :- /film/film/release_date_s./film/film_regional_release_date/film_release_region(A,Y))
+Rule(/sports/sports_position/players./sports/sports_team_roster/team(/m/03558l,Y) :- /basketball/basketball_player/former_teams./basketball/basketball_historical_roster_position/team(/m/02cg2v,Y))
+Rule(/film/film/film_format(X,/m/0cj16
+) :- /film/film/estimated_budget./measurement_unit/dated_money_value/currency(X,/m/09nqf
+))
+Rule(/award/award_category/winners./award/award_honor/award_winner(/m/09qrn4,Y) :- /award/award_nominee/award_nominations./award/award_nomination/award_nominee(A,Y))
+Rule(/film/film/release_date_s./film/film_regional_release_date/film_release_region(/m/02bg55,Y) :- /film/film/release_date_s./film/film_regional_release_date/film_release_region(/m/0gtxj2q,Y))
+Rule(/film/film/film_format(X,/m/0cj16
+) :- /film/film/estimated_budget./measurement_unit/dated_money_value/currency(X,A))
+Rule(/olympics/olympic_participating_country/athletes./olympics/olympic_athlete_affiliation/sport(X,/m/02_5h
+) :- /olympics/olympic_participating_country/athletes./olympics/olympic_athlete_affiliation/olympics(X,/m/0kbvv
+))
+Rule(/award/award_winning_work/awards_won./award/award_honor/honored_for(/m/02ny6g,Y) :- /award/award_category/nominees./award/award_nomination/nominated_for(/m/04ljl_l,Y))
+Rule(/film/film_genre/films_in_this_genre(X,/m/0kb1g
+) :- /film/film_genre/films_in_this_genre(X,A))
+Rule(/olympics/olympic_participating_country/athletes./olympics/olympic_athlete_affiliation/sport(X,/m/02_5h
+) :- /olympics/olympic_participating_country/athletes./olympics/olympic_athlete_affiliation/olympics(X,A))
+Rule(/sports/sports_position/players./sports/sports_team_roster/team(/m/03558l,Y) :- /basketball/basketball_player/former_teams./basketball/basketball_historical_roster_position/team(A,Y))
+Rule(/award/award_category/winners./award/award_honor/honored_for(/m/09cm54,Y) :- /film/film_genre/films_in_this_genre(/m/060__y,Y))
+Rule(/film/film/release_date_s./film/film_regional_release_date/film_release_region(/m/0h1v19,Y) :- /film/film/release_date_s./film/film_regional_release_date/film_release_region(/m/03hjv97,Y))
+Rule(/award/award_winning_work/awards_won./award/award_honor/honored_for(/m/02ny6g,Y) :- /award/award_category/nominees./award/award_nomination/nominated_for(A,Y))
+Rule(/people/person/gender(X,/m/05zppz
+) :- /people/person/nationality(X,A))
+Rule(/music/musical_group/member./music/group_membership/member(/m/01wv9xn,Y) :- /common/annotation_category/annotations./common/webpage/topic(A,Y))
+Rule(/people/person/gender(X,/m/05zppz
+) :- /people/person/nationality(X,/m/09c7w0
+))
+Rule(/film/film/release_date_s./film/film_regional_release_date/film_release_region(X,/m/05b4w
+) :- /film/film/release_date_s./film/film_regional_release_date/film_release_region(X,/m/01znc_
+))
+Rule(/music/genre/artists(/m/06by7,Y) :- /music/genre/artists(/m/05bt6j,Y))
+Rule(/film/film/release_date_s./film/film_regional_release_date/film_release_region(X,/m/05b4w
+) :- /film/film/release_date_s./film/film_regional_release_date/film_release_region(X,A))
+Rule(/film/film/release_date_s./film/film_regional_release_date/film_release_region(/m/026p_bs,Y) :- /film/film/release_date_s./film/film_regional_release_date/film_release_region(/m/032clf,Y))
+Rule(/soccer/football_team/current_roster./sports/sports_team_roster/position(/m/05nsfc,Y) :- /sports/sports_team/roster./soccer/football_roster_position/position(/m/03j76b,Y))
+Rule(/sports/pro_athlete/teams./soccer/football_roster_position/team(/m/071pf2,Y) :- /soccer/football_player/current_team./sports/sports_team_roster/team(A,Y))
+Rule(/film/film/release_date_s./film/film_regional_release_date/film_release_region(/m/026p_bs,Y) :- /film/film/release_date_s./film/film_regional_release_date/film_release_region(A,Y))
+Rule(/award/award_category/winners./award/award_honor/honored_for(/m/09cm54,Y) :- /film/film_genre/films_in_this_genre(A,Y))
+Rule(/music/genre/artists(/m/06by7,Y) :- /music/genre/artists(A,Y))
+Rule(/award/award_nominee/award_nominations./award/award_nomination/award(/m/0237fw,Y) :- /award/award_winner/awards_won./award/award_honor/award(A,Y))
+Rule(/base/schemastaging/organization_extra/phone_number./base/schemastaging/phone_sandbox/service_location(X,/m/02j71
+) :- /common/topic/webpage./common/webpage/category(X,/m/08mbj32
+))
+Rule(/base/schemastaging/organization_extra/phone_number./base/schemastaging/phone_sandbox/service_location(X,/m/02j71
+) :- /common/topic/webpage./common/webpage/category(X,A))
+Rule(/film/film/starring./film/performance/actor(X,/m/0kjgl
+) :- /film/film/estimated_budget./measurement_unit/dated_money_value/currency(X,/m/09nqf
+))
+Rule(/music/performance_role/track_performances./music/track_contribution/role(X,/m/0dwsp
+) :- /dataworld/gardening_hint/split_to(X,A))
+Rule(/award/award_winning_work/awards_won./award/award_honor/award(X,/m/02qyntr
+) :- /film/film/genre(X,A))
+Rule(/award/award_winner/awards_won./award/award_honor/honored_for(/m/04g3p5,Y) :- /award/award_nominee/award_nominations./award/award_nomination/nominated_for(A,Y))
+Rule(/film/film/other_crew./film/film_crew_gig/crewmember(X,/m/0b79gfg
+) :- /award/award_nominated_work/award_nominations./award/award_nomination/award(X,A))
+Rule(/people/profession/people_with_this_profession(/m/02hrh1q,Y) :- /film/film/starring./film/performance/actor(/m/034qzw,Y))
+Rule(/sports/sports_position/players./american_football/football_roster_position/team(X,/m/026lg0s
+) :- /sports/sports_position/players./american_football/football_historical_roster_position/team(X,/m/026l1lq
+))
+Rule(/award/award_winning_work/awards_won./award/award_honor/award(X,/m/02xj3rw
+) :- /film/film/language(X,/m/02h40lc
+))
+Rule(/film/film/starring./film/performance/actor(X,/m/0kjgl
+) :- /film/film/estimated_budget./measurement_unit/dated_money_value/currency(X,A))
+Rule(/award/award_winning_work/awards_won./award/award_honor/award(X,/m/02xj3rw
+) :- /film/film/language(X,A))
+Rule(/film/actor/film./film/performance/film(/m/02qfhb,Y) :- /film/film_genre/films_in_this_genre(/m/05p553,Y))
+Rule(/film/film_genre/films_in_this_genre(X,/m/0f3m1
+) :- /film/film_genre/films_in_this_genre(X,/m/03qnvdl
+))
+Rule(/film/film/other_crew./film/film_crew_gig/crewmember(X,/m/0b79gfg
+) :- /award/award_nominated_work/award_nominations./award/award_nomination/award(X,/m/0gqxm
+))
+Rule(/people/person/place_of_birth(X,/m/0d9jr
+) :- /people/person/profession(X,A))
+Rule(/sports/sports_team/roster./sports/sports_team_roster/position(X,/m/02_j1w
+) :- /sports/sports_team/roster./soccer/football_roster_position/position(X,/m/02nzb8
+))
+Rule(/film/film_location/featured_in_films(/m/05tbn,Y) :- /award/award_category/winners./award/award_honor/honored_for(A,Y))
+Rule(/award/award_winner/awards_won./award/award_honor/award_winner(X,/m/05np4c
+) :- /award/award_winner/awards_won./award/award_honor/award_winner(X,/m/0k2mxq
+))
+Rule(/film/film_genre/films_in_this_genre(/m/03npn,Y) :- /film/film_production_designer/films_production_designed(/m/03mdw3c,Y))
+Rule(/award/award_winner/awards_won./award/award_honor/award_winner(X,/m/05np4c
+) :- /award/award_winner/awards_won./award/award_honor/award_winner(X,A))
+Rule(/film/film/release_date_s./film/film_regional_release_date/film_release_region(/m/09tcg4,Y) :- /film/film/release_date_s./film/film_regional_release_date/film_release_region(/m/0cnztc4,Y))
+Rule(/award/award_nominee/award_nominations./award/award_nomination/award_nominee(/m/06dv3,Y) :- /film/film/starring./film/performance/actor(/m/0g3zrd,Y))
+Rule(/film/film/distributors./film/film_film_distributor_relationship/distributor(X,/m/017jv5
+) :- /film/film/starring./film/performance/actor(X,A))
+Rule(/film/film_genre/films_in_this_genre(/m/03npn,Y) :- /film/film_production_designer/films_production_designed(A,Y))
+Rule(/business/company_type/companies_of_this_type(/m/025w401,Y) :- /award/award_category/winners./award/award_honor/award_winner(A,Y))
+Rule(/award/award_ceremony/awards_presented./award/award_honor/award(/m/056878,Y) :- /award/award_winner/awards_won./award/award_honor/award(/m/01vvydl,Y))
+Rule(/business/company_type/companies_of_this_type(/m/025w401,Y) :- /award/award_category/winners./award/award_honor/award_winner(/m/0m7yy,Y))
+Rule(/music/performance_role/track_performances./music/track_contribution/contributor(/m/0gkd1,Y) :- /music/instrument/instrumentalists(/m/0l14md,Y))
+Rule(/sports/sports_team/roster./soccer/football_roster_position/position(X,/m/0dgrmp
+) :- /soccer/football_team/current_roster./sports/sports_team_roster/position(X,/m/02_j1w
+))
+Rule(/film/actor/film./film/performance/film(/m/02qfhb,Y) :- /film/film_genre/films_in_this_genre(A,Y))
+Rule(/film/film/executive_produced_by(X,/m/02z2xdf
+) :- /film/film/other_crew./film/film_crew_gig/film_crew_role(X,/m/09zzb8
+))
+Rule(/people/person/places_lived./people/place_lived/location(X,/m/0fv_t
+) :- /people/person/profession(X,A))
+Rule(/award/award_winning_work/awards_won./award/award_honor/award_winner(/m/0fg04,Y) :- /award/award_nominated_work/award_nominations./award/award_nomination/award_nominee(A,Y))
+Rule(/sports/sports_team/roster./sports/sports_team_roster/position(X,/m/02_j1w
+) :- /sports/sports_team/roster./soccer/football_roster_position/position(X,A))
+Rule(/film/film/release_date_s./film/film_regional_release_date/film_release_region(/m/01d259,Y) :- /film/film/release_date_s./film/film_regional_release_date/film_release_region(/m/05p1tzf,Y))
